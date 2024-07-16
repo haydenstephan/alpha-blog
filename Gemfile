@@ -42,7 +42,10 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "bootstrap"
+
 gem "sassc-rails"
+
+gem "will_paginate", "~>4.0"
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
